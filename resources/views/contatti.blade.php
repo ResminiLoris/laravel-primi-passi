@@ -7,7 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>benvenuto {{ $name }} {{ $surname }}</h1>
-    <a href="{{url('/contatti')}}">contatti</a>
+    <h1>contatti</h1>
 </body>
 </html>

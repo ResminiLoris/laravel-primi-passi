@@ -20,3 +20,8 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 });
+
+Route::get('contatti', function () {
+    return view('contatti');
+});
+
