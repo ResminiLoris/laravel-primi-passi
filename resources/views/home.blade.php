@@ -11,16 +11,16 @@
     <nav>
         <ul>
             <li>
-                <a href="{{url('/contatti')}}">contatti</a>
+                <a href="{{route('contatti')}}">contatti</a>
             </li>
             <li>
-                <a href="{{url('/blog')}}">blog</a>
+                <a href="{{route('blog')}}">blog</a>
             </li>
             <li>
-                <a href="{{url('/gallery')}}">gallery</a>
+                <a href="{{route('gallery')}}">gallery</a>
             </li>
             <li>
-                <a href="{{url('/social')}}">social</a>
+                <a href="{{route('social')}}">social</a>
             </li>
         </ul>
     </nav>

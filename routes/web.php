@@ -23,16 +23,16 @@ Route::get('/', function () {
 
 Route::get('contatti', function () {
     return view('contatti');
-});
+})->name('contatti');
 
 Route::get('gallery', function () {
     return view('gallery');
-});
+})->name('gallery');
 
 Route::get('social', function () {
     return view('social');
-});
+})->name('social');
 
 Route::get('blog', function () {
     return view('blog');
-});
+})->name('blog');
