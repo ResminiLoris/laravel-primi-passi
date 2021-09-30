@@ -8,6 +8,21 @@
 </head>
 <body>
     <h1>benvenuto {{ $name }} {{ $surname }}</h1>
-    <a href="{{url('/contatti')}}">contatti</a>
+    <nav>
+        <ul>
+            <li>
+                <a href="{{url('/contatti')}}">contatti</a>
+            </li>
+            <li>
+                <a href="{{url('/blog')}}">blog</a>
+            </li>
+            <li>
+                <a href="{{url('/gallery')}}">gallery</a>
+            </li>
+            <li>
+                <a href="{{url('/social')}}">social</a>
+            </li>
+        </ul>
+    </nav>
 </body>
 </html>

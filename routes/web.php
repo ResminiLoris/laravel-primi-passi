@@ -25,3 +25,14 @@ Route::get('contatti', function () {
     return view('contatti');
 });
 
+Route::get('gallery', function () {
+    return view('gallery');
+});
+
+Route::get('social', function () {
+    return view('social');
+});
+
+Route::get('blog', function () {
+    return view('blog');
+});
